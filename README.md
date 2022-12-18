@@ -6,7 +6,7 @@ Terraform module designed to generate a token for kubeadm. The generated token w
 
 ```hcl
 module "kubeadm_token" {
-  source  = "robinlieb/terraform-kubeadm-token"
+  source  = "robinlieb/kubeadm-token/random"
 }
 
 output "token" {
